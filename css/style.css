@@ -1,0 +1,72 @@
+*{
+    font-family: Verdana;
+  }
+  
+  
+  @media (max-width:992px) {
+    .kontener {
+      height: 50vh;
+      width: auto;
+      
+    }
+  
+  
+  
+  .obrazek2 {
+    display: none;
+  }
+  
+  .obrazek1 img{
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .napis {
+    text-align: center;
+  }
+  
+  }
+  @media (min-width:992px) and (max-width:1170px) {
+    .obrazek1 {
+      display: none;
+    }
+  
+    .obrazek2 img{
+      height: 70vh;
+      width: 100vw;
+    }
+  
+    .napis {
+      position: absolute;
+      top: 15%;
+      left: 55%;
+      color: white;
+      font-size: smaller;
+      
+    }
+  
+  }
+  
+  
+  @media (min-width:1170px) {
+  
+    .obrazek2 {
+      display: none;
+    }
+  
+    .obrazek1 img {
+      height: 100vh;
+  
+    }
+    
+    .napis {
+      position: absolute;
+      color: white;
+      top: 30%;
+      left: 2%;
+      font-size: 20px;
+    }
+  
+  }
+  
+  
